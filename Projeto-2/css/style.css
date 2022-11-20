@@ -19,4 +19,38 @@ body {
     background-size: cover;
 }
 
+#main-home {
+    background-color: aliceblue;
+}
 
+#h2-home {
+    font-size: 1.2em;
+    padding: 10px;
+    padding-left: 50px;
+    margin: 0;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
+    /* border-radius: 50px 0px 50px 0px; */
+}
+
+#sec-home {
+    background-color: rgb(52, 50, 50);
+    display: flex;
+}
+
+#sec-home img {
+    max-width: 100%;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: bottom left;
+    margin: 10px;
+    color: #fff;
+}
+
+#sec-home p {
+    color: #fff;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+}
